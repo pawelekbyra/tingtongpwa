@@ -20,10 +20,7 @@ jobs:
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./ting-tong-pwa/
-        # server-dir: /path/to/your/wp-content/themes/ting-tong-pwa/
-        # The user should uncomment and set the correct server-dir path in their environment.
-        # For now, we can deploy to the root or a temporary directory.
-        server-dir: ./
+        server-dir: /public_html/autoinstalator/wordpresspluslscache1/wp-content/themes/tingtong/
         exclude: |
           **/.git*
           **/.git*/**
